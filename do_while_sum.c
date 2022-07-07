@@ -13,7 +13,7 @@ int main(void)
         sum += pow(n, 2);
         n += 2;
     } while (sum < 5000);
-    printf("%d\n", sum);
+    printf("The answer is %d.\n", sum);
     
     return 0;
 }
