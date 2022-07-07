@@ -3,6 +3,7 @@
 
 int main(void)
 {
+    printf("sum each of odd and even number\n");
     int num = 1, i, total, odd_num = 0, even_num = 0;
     int even_total = 0, odd_total = 0;
     while(num <= 100){
