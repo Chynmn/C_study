@@ -24,6 +24,5 @@ int main(void)
         printf("The total is %d\n", total);
     }
     
-
     return 0;
 }
