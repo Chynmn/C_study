@@ -5,7 +5,7 @@ int main(void)
 {
     int num, i, cnt = 0;
 
-    printf("소수 판별 프로그램\n정수를 입력해보거라 : ");
+    printf("Distinguish prime number program\nPlz input integer : ");
     scanf("%d", &num);
  
     for (i=2; i<num; i++) {
@@ -15,9 +15,9 @@ int main(void)
     }
     
     if (cnt == 0)
-        printf("소수소수소수소수소수\n");
+        printf("what u input num is %d which is prime number.\n", num);
     else 
-        printf("소수라고 할 뻔~\n");
+        printf("This is not prime number.\n");
 
     return 0;
 }
