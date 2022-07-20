@@ -5,7 +5,7 @@ int main(void)
 {
     int num, i, j;
 
-    printf("약수 출력 프로그램\n정수를 입력해보거라 : ");
+    printf("Program to find divisors\nInput Integer : ");
     scanf("%d", &num);
 
     for(i = 1; i <= num; i++){
@@ -18,5 +18,6 @@ int main(void)
         }
         printf("\n");
     }
+    
     return 0;
 }
