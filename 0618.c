@@ -5,7 +5,7 @@ int main(void)
 {
     int a, b, c, d;
     int i, j, k, l;
-    printf("A, B, C, D를 구하는 프로그램\n");
+    printf("Program to find A, B, C, D\n");
 
     for(i = 0; i < 10; i++){
         for(j = 0; j < 10; j++){
