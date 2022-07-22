@@ -5,15 +5,15 @@ int main(void)
 {
     int a = 0;
 
-    printf("정수를 입력하시오 : ");
+    printf("Program to find multiple of 3\nInput integer : ");
     scanf("%d", &a);
 
     a %= 3;
     if(a == 0){
-        printf("3의 배수");
+        printf("This number is multiple of 3");
     }
     else{
-        printf("3의 배수 아님");
+        printf("This number isn't multiple of 3");
     }
 
     return 0;
