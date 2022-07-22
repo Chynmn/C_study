@@ -5,11 +5,11 @@ int main(void)
 {
     int num, i, j, cnt;
 
-    printf("약수 & 소수 출력 프로그램\n정수를 입력해보거라 : ");
+    printf("Program to find divisors & prime numbers\nInput integers : ");
     scanf("%d", &num);
 
     for(i = 1; i <= num; i++){
-        printf("%d의 약수 :", i);
+        printf("divisors of %d :", i);
         cnt = 0;
         for(j = 1; j <= num; j++){
             if(i % j == 0){
@@ -18,7 +18,7 @@ int main(void)
             }
         }
         if(cnt == 2){
-            printf("소수소수소수소수소수");
+            printf("prime number");
         }
         printf("\n");
     }
