@@ -6,7 +6,7 @@ int main(void)
 {
     double a = 0;
 
-    printf("실수 값을 입력하세요 : ");
+    printf("Program to find square\nInput integer : ");
     scanf("%lf", &a);
 
     if(a < 0){
