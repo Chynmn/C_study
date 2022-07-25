@@ -3,8 +3,8 @@
 
 int main(void)
 {
-    printf("입력한 날짜의 다음 날을 구하는 프로그램\n날짜를 입력해주세요\n");
-    printf("입력 예시)일 월 연도\n");
+    printf("Program to find next date of inputed date\nPlz input the date\n");
+    printf("Input example -> 28 02 2022\n");
     printf("--------------------\n");
 
     int date, month, year;
@@ -23,7 +23,6 @@ int main(void)
         case 4: case 6: case 8: case 11:
             max_date = 30;
             break;
-
     }
 
     // 윤년일 때
