@@ -70,6 +70,7 @@ void choose_menu(Menu pr)
         }
         if(cnt ==  -1) break;
     }
+    
     printf("\n\nDid you enjoy the meal?\nHere's your bill $%.2lf\n\n", total_price);
 
     return;

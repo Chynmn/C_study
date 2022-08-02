@@ -23,6 +23,7 @@ int main(void)
         printf("=========================\n");
         num++;
     }
+    
     printf("total = %d + %d = %d", odd_total, even_total, odd_total + even_total);
     return 0;
 }

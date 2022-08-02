@@ -5,7 +5,7 @@ int main(void)
 {
     int month;
 
-    printf("계절 구하기 프로그렘\n1~12월 까지의 월을 입력하세요 : ");
+    printf("Program to find Season\nInput between January ~ December : : ");
 
     while(1){
         scanf("%d", &month);
@@ -23,18 +23,18 @@ int main(void)
             month = 4;
         }
         else{
-            printf("1~12월까지만 입력하시라구요!\n다시 입력하세요 : ");
+            printf("Plz input between January ~ December!\nInput try again : ");
             continue;
         }
 
         switch (month){
-        case 1: printf("봄\n");
+        case 1: printf("Spring\n");
             break;
-        case 2: printf("여름\n");
+        case 2: printf("Summer\n");
             break;
-        case 3: printf("문가을\n");
+        case 3: printf("Fall\n");
             break;
-        case 4: printf("에스파 윈터\n");
+        case 4: printf("Winter\n");
             break;
         default:
             break;
